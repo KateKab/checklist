@@ -1,0 +1,49 @@
+header {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+
+.checklist {
+    display: flex;
+    flex-direction: row;
+    width: 60%;
+}
+
+.checklist__description, .checklist__date {
+    display: grid;
+    grid-template-columns: 300px 20px;
+    word-wrap: break-word;
+}
+
+.checklist__date {
+    display: grid;
+    grid-template-columns: 140px 20px;
+}
+
+.edit {
+    display: grid;
+    grid-template-columns: 40px 40px 60px 20px;
+}
+
+button {
+    border: 0;
+    border-radius: 0;
+    background: white;
+    height: fit-content;
+}
+
+input, select, input:focus, select:focus {
+    height: fit-content;
+    border: none;
+    outline: 0;
+}
+
+p {
+    margin: 0px;
+}
+
+.checklist__add-item {
+    display: grid;
+    grid-template-columns: 340px 40px 40px 60px 20px;
+}
